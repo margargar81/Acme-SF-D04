@@ -1,0 +1,11 @@
+ .d8b.   .o88b. .88b  d88. d88888b      .d8888. d88888b 
+d8' `8b d8P  Y8 88'YbdP`88 88'          88'  YP 88'     
+88ooo88 8P      88  88  88 88ooooo      `8bo.   88ooo   
+88~~~88 8b      88  88  88 88~~~~~        `Y8b. 88~~~   
+88   88 Y8b  d8 88  88  88 88.          db   8D 88      
+YP   YP  `Y88P' YP  YP  YP Y88888P      `8888Y' YP      
+
+Application:          ${acme.application.versioned-name}
+Application endpoint: http://localhost:${server.port}${server.servlet.context-path}${server.servlet.initial-query}
+Database endpoint:    ${spring.datasource.url}
+Powered by:           Spring Boot ${spring-boot.version}, ${acme.framework.display-name} ${acme.framework.version}
