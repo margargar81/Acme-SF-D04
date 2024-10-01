@@ -1,0 +1,11 @@
+key,code,instantiationMoment,heading,description,department,email,link
+claim-011,C-1235,2021/01/15 09:30,"Warranty Claim","Laptop screen flickering.","Technical Support","tech.support@company.com","https://support.company.com/warranty"
+claim-012,C-2346,2021/02/28 14:10,"Incorrect Order","Received wrong items in order.","Customer Service","orders@shop.com","https://shop.com/orders"
+claim-013,C-3457,2021/03/18 18:00,"Service Complaint","Poor service at local branch.","Customer Service","feedback@localbranch.com",""
+claim-014,C-4568,2021/04/12 12:45,"Return Request","Requesting refund for unopened product.","Returns","returns@ecommerce.com","https://ecommerce.com/returns"
+claim-015,C-5679,2021/05/25 10:30,"Subscription Issue","Unable to cancel subscription.","Billing","billing@serviceprovider.com","https://serviceprovider.com/cancel"
+claim-016,C-6780,2021/06/10 13:20,"Product Defect","Defective toaster on arrival.","Technical Support","support@appliances.com",""
+claim-017,C-7891,2021/07/01 16:50,"Shipping Delay","Order delayed beyond expected delivery date.","Shipping","shipping@shop.com","https://shop.com/track"
+claim-018,C-8902,2021/08/15 11:30,"Lost Package","Order marked as delivered, not received.","Shipping","lost@deliveryco.com","https://deliveryco.com/lost-package"
+claim-019,C-9013,2021/09/20 17:05,"Account Issue","Unable to log in to account.","Customer Service","helpdesk@company.com","https://company.com/help"
+claim-010,C-0124,2021/10/30 15:45,"Billing Query","Incorrect charge on monthly bill.","Billing","billing@isp.com","https://isp.com/billing"
