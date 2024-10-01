@@ -1,0 +1,11 @@
+key,code,title,projectAbstract,indication,cost,link,draftMode,key:manager
+project-01,ABX-1234,Customer Retention Plan,"Implement strategies to enhance customer loyalty and retention.",false,102345.50 USD,http://example.com/retention-plan,false,manager-01
+project-02,CDY-5678,Supply Chain Optimization,"Optimize supply chain to reduce costs and improve efficiency.",true,89321.75 EUR,http://example.com/supply-chain,true,manager-02
+project-03,EFG-9101,New Product Research,"Conduct research for a potential new product line targeting Gen Z.",false,61234.20 GBP,,false,manager-01
+project-04,HIJ-1121,Mobile App Launch,"Launch a new mobile app to expand digital presence.",true,72345.60 USD,http://example.com/mobile-app,true,manager-02
+project-05,KLM-3142,Employee Training Program,"Develop a comprehensive training program for new employees.",false,45231.40 GBP,http://example.com/training-program,false,manager-01
+project-06,NOP-5163,Sustainability Initiative,"Implement sustainability measures across company operations.",false,80312.90 EUR,http://example.com/sustainability,false,manager-02
+project-07,QRS-7184,Customer Feedback Analysis,"Analyze customer feedback to identify areas for improvement.",true,67985.50 USD,,true,manager-01
+project-08,TUV-9205,IT Infrastructure Upgrade,"Upgrade IT infrastructure to support new digital initiatives.",false,93421.30 EUR,http://example.com/it-upgrade,false,manager-02
+project-09,WXY-1226,Global Expansion Strategy,"Develop a strategy to expand into Asian markets.",false,70123.45 GBP,http://example.com/global-expansion,false,manager-01
+project-10,ZAB-3247,Digital Marketing Campaign,"Launch a targeted digital marketing campaign to increase brand visibility.",true,51987.60 USD,http://example.com/marketing,true,manager-02
