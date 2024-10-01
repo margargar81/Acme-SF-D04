@@ -1,0 +1,11 @@
+key,updateMoment,displayPeriodStart,displayPeriodEnd,picture,slogan,webDoc
+BNR-001,2021/04/20 15:00,2021/05/10 14:30,2022/09/01 10:00,https://picsum.photos/id/237/200/300,Slogan 1,http://example.com/web-doc-001
+BNR-002,2022/03/25 14:30,2022/03/26 10:45,2023/08/05 23:59,https://picsum.photos/seed/picsum/200/300,Slogan 2,http://example.com/web-doc-002
+BNR-003,2022/03/25 10:45,2022/03/27 16:45,2023/08/06 00:01,https://picsum.photos/200/300?grayscale,Slogan 3,http://example.com/web-doc-003
+BNR-004,2022/03/15 08:15,2022/03/25 11:30,2022/03/30 09:00,,Slogan 4,http://example.com/web-doc-004
+BNR-005,2022/03/20 16:45,2022/03/30 09:00,2023/12/31 23:59,,Slogan 5,http://example.com/web-doc-005
+BNR-006,2022/03/25 11:30,2022/04/01 14:30,2022/10/08 09:00,https://picsum.photos/200/300/?blur,Slogan 6,http://example.com/web-doc-006
+BNR-007,2022/03/30 09:00,2022/04/05 14:30,2022/04/12 10:45,https://picsum.photos/id/870/200/300?grayscale&blur=2,Slogan 7,http://example.com/web-doc-007
+BNR-008,2022/04/01 14:30,2022/04/08 09:00,2024/01/01 00:00,https://picsum.photos/id/1/367/267,Slogan 8,http://example.com/web-doc-008
+BNR-009,2022/04/05 14:30,2022/04/12 10:45,2023/09/01 10:00,,Slogan 9,http://example.com/web-doc-009
+BNR-010,2022/04/08 09:00,2022/04/15 14:30,2022/06/22 11:30,https://picsum.photos/id/1/367/260,Slogan 10,http://example.com/web-doc-010
