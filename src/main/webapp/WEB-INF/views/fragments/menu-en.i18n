@@ -52,7 +52,7 @@ master.menu.user-account.become-consumer = Become a consumer
 # master.menu.manager #########################################################
 
 master.menu.manager = Manager
-master.menu.manager.list-my-projects = List my projects
-master.menu.manager.list-my-user-stories = List my user stories
-master.menu.manager.list-my-project-user-story = List my project - user story relations
-master.menu.manager.manager-dashboard = Dashboard
+master.menu.manager.list-my-projects = My projects
+master.menu.manager.list-my-user-stories = My User Stories
+master.menu.manager.list-my-project-user-story = Projects - User Stories
+master.menu.manager.manager-dashboard = Manager Dashboard

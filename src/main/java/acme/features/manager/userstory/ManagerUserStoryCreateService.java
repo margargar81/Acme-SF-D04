@@ -12,7 +12,7 @@ import acme.entities.project.UserStoryPriority;
 import acme.roles.Manager;
 
 @Service
-public class ManagerUserStoryShowService extends AbstractService<Manager, UserStory> {
+public class ManagerUserStoryCreateService extends AbstractService<Manager, UserStory> {
 
 	// Internal state ---------------------------------------------------------
 
@@ -25,15 +25,11 @@ public class ManagerUserStoryShowService extends AbstractService<Manager, UserSt
 	@Override
 	public void authorise() {
 
-		//Stories must me linked to the corresponded manager
+		//The user must be a logged Manager
 
 		boolean status;
-		UserStory us;
-		Manager manager;
 
-		us = this.repository.findOneUserStoryById(super.getRequest().getData("id", int.class));
-		manager = this.repository.findOneManagerById(super.getRequest().getPrincipal().getActiveRoleId());
-		status = super.getRequest().getPrincipal().hasRole(Manager.class) && (us.getManager().equals(manager) || !us.isDraftMode());
+		status = super.getRequest().getPrincipal().hasRole(Manager.class);
 
 		super.getResponse().setAuthorised(status);
 	}
@@ -41,12 +37,42 @@ public class ManagerUserStoryShowService extends AbstractService<Manager, UserSt
 	@Override
 	public void load() {
 		UserStory object;
-		int id;
+		Manager manager;
 
-		id = super.getRequest().getData("id", int.class);
-		object = this.repository.findOneUserStoryById(id);
+		manager = this.repository.findOneManagerById(super.getRequest().getPrincipal().getActiveRoleId());
+		object = new UserStory();
+		object.setManager(manager);
+		object.setDraftMode(true);
 
 		super.getBuffer().addData(object);
+	}
+
+	@Override
+	public void bind(final UserStory object) {
+		assert object != null;
+
+		super.bind(object, "title", "description", "estimatedCost", "acceptanceCriteria", "priority", "link");
+	}
+
+	@Override
+	public void validate(final UserStory object) {
+
+		//Constraint -> The cost must be >0
+
+		assert object != null;
+
+		if (!super.getBuffer().getErrors().hasErrors("estimatedCost")) {
+			int ec;
+			ec = object.getEstimatedCost();
+			super.state(ec > 0, "estimatedCost", "manager.user-story.form.error.negative-estimated-cost");
+		}
+	}
+
+	@Override
+	public void perform(final UserStory object) {
+		assert object != null;
+
+		this.repository.save(object);
 	}
 
 	@Override
@@ -55,20 +81,11 @@ public class ManagerUserStoryShowService extends AbstractService<Manager, UserSt
 
 		SelectChoices priorities;
 		Dataset dataset;
-		boolean isMine;
-		UserStory us;
-		Manager manager;
-
-		us = this.repository.findOneUserStoryById(super.getRequest().getData("id", int.class));
-		manager = this.repository.findOneManagerById(super.getRequest().getPrincipal().getActiveRoleId());
-
-		isMine = us.getManager().equals(manager);
 
 		priorities = SelectChoices.from(UserStoryPriority.class, object.getPriority());
 
 		dataset = super.unbind(object, "title", "description", "estimatedCost", "acceptanceCriteria", "priority", "link", "draftMode");
 		dataset.put("priorities", priorities);
-		dataset.put("isMine", isMine);
 
 		super.getResponse().addData(dataset);
 	}
