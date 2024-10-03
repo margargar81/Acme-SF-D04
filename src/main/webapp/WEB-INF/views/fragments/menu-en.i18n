@@ -48,3 +48,11 @@ master.menu.user-account.provider = Provider data
 master.menu.user-account.become-provider = Become a provider
 master.menu.user-account.consumer = Consumer data
 master.menu.user-account.become-consumer = Become a consumer
+
+# master.menu.manager #########################################################
+
+master.menu.manager = Manager
+master.menu.manager.list-my-projects = List my projects
+master.menu.manager.list-my-user-stories = List my user stories
+master.menu.manager.list-my-project-user-story = List my project - user story relations
+master.menu.manager.manager-dashboard = Dashboard
