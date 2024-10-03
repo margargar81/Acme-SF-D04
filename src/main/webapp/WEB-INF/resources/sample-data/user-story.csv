@@ -1,11 +1,11 @@
 key,title,description,estimatedCost,acceptanceCriteria,priority,link,draftMode,key:manager
-01-user-story-01,API Rate Limiting,"Implement rate limiting for API requests.",12,"Limit the number of requests per minute per user.",MUST,http://example.com/api-limiting,false,manager-01
-01-user-story-02,Dark Mode,"Add a dark mode to the user interface.",7,"Users can switch to a dark theme.",SHOULD,http://example.com/dark-mode,true,manager-02
-01-user-story-03,Email Verification,"Add email verification on user registration.",5,"Users receive a verification email after signup.",MUST,,false,manager-01
-01-user-story-04,Push Notifications,"Implement push notifications for new messages.",8,"Users receive push notifications for new messages.",COULD,http://example.com/push-notifications,false,manager-02
-01-user-story-05,Data Backup,"Create automatic data backup functionality.",10,"System performs regular data backups without downtime.",SHOULD,http://example.com/data-backup,true,manager-01
-01-user-story-06,File Upload Restrictions,"Set file size and type restrictions for uploads.",6,"Only specific file types and sizes are allowed.",MUST,,false,manager-02
-01-user-story-07,Audit Logs,"Add audit logging for key actions.",14,"System logs user actions for security and compliance.",MUST,http://example.com/audit-logs,false,manager-01
-01-user-story-08,Two-Factor Authentication,"Implement two-factor authentication for added security.",9,"Users must provide an additional verification code.",SHOULD,http://example.com/2fa,false,manager-02
-01-user-story-09,Session Timeout,"Set automatic session timeout for inactivity.",4,"Users are logged out after 15 minutes of inactivity.",COULD,,false,manager-01
-01-user-story-10,Password Strength Check,"Enforce password strength requirements.",5,"Passwords must meet minimum length and complexity.",MUST,http://example.com/password-policy,true,manager-02
+user-story-01,API Rate Limiting,Implement rate limiting for API requests.,12,Limit the number of requests per minute per user.,MUST,http://example.com/api-limiting,false,manager-01
+user-story-02,Dark Mode,Add a dark mode to the user interface.,7,Users can switch to a dark theme.,SHOULD,http://example.com/dark-mode,true,manager-02
+user-story-03,Email Verification,Add email verification on user registration.,5,Users receive a verification email after signup.,MUST,,false,manager-01
+user-story-04,Push Notifications,Implement push notifications for new messages.,8,Users receive push notifications for new messages.,COULD,http://example.com/push-notifications,false,manager-02
+user-story-05,Data Backup,Create automatic data backup functionality.,10,System performs regular data backups without downtime.,SHOULD,http://example.com/data-backup,true,manager-01
+user-story-06,File Upload Restrictions,Set file size and type restrictions for uploads.,6,Only specific file types and sizes are allowed.,MUST,,false,manager-02
+user-story-07,Audit Logs,Add audit logging for key actions.,14,System logs user actions for security and compliance.,MUST,http://example.com/audit-logs,false,manager-01
+user-story-08,Two-Factor Authentication,Implement two-factor authentication for added security.,9,Users must provide an additional verification code.,SHOULD,http://example.com/2fa,false,manager-02
+user-story-09,Session Timeout,Set automatic session timeout for inactivity.,4,Users are logged out after 15 minutes of inactivity.,COULD,,false,manager-01
+user-story-10,Password Strength Check,Enforce password strength requirements.,5,Passwords must meet minimum length and complexity.,MUST,http://example.com/password-policy,true,manager-02
