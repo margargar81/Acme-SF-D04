@@ -1,4 +1,4 @@
 key,record-id,completeness,comment,registration-moment,responsible-person,key:contract
-progress-log-01,PG-A-1234,1.0,a,2023/07/08 22:00,Person1,contract-01
-progress-log-02,PG-AA-0000,10.2,Comment 1,2023/10/09 17:00,Persona 3,contract-01
-progress-log-03,PG-B-0123,50.5,Comment 2,2023/01/08 12:00,Persona 4,contract-02
+progress-log-01,PG-A-1234,1.0,a,2020/07/08 22:00,Person1,contract-01
+progress-log-02,PG-AA-0000,10.2,Comment 1,2020/10/09 17:00,Persona 3,contract-01
+progress-log-03,PG-B-0123,50.5,Comment 2,2020/01/08 12:00,Persona 4,contract-02
