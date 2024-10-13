@@ -1,0 +1,4 @@
+key,code,instantiation-moment,provider-name,customer-name,goals,budget,draft-mode,key:client,key:project
+contract-01,ABC-001,2023/01/01 00:00,Provider1,Customer1,Goal1,"EUR 100.10",false,client-01,project-01
+contract-02,AAA-002,2023/02/01 10:05,Provider2,Customer2,Goal2,"EUR 200.20",true,client-02,project-02
+contract-03,BCD-003,2023/03/17 23:59,Provider3,Customer3,Goal3,"EUR 300.00",false,client-03,project-03
