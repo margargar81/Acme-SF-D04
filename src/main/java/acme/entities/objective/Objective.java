@@ -25,39 +25,39 @@ public class Objective extends AbstractEntity {
 
 	// Serialisation identifier -----------------------------------------------
 
-	private static final long	serialVersionUID	= 1L;
+	protected static final long	serialVersionUID	= 1L;
 
 	// Attributes -------------------------------------------------------------
 
 	@NotNull
 	@Past
 	@Temporal(TemporalType.TIMESTAMP)
-	private Date				instantiationMoment;
+	protected Date				instantiationMoment;
 
 	@NotBlank
 	@Length(max = 75)
-	private String				title;
+	protected String			title;
 
 	@NotBlank
 	@Length(max = 100)
-	private String				description;
+	protected String			description;
 
 	@NotNull
-	private PriorityType		priority;
+	protected PriorityType		priority;
 
 	@NotNull
-	private Boolean				criticalStatus;
-
-	@NotNull
-	@Temporal(TemporalType.TIMESTAMP)
-	private Date				startDuration;
+	protected Boolean			criticalStatus;
 
 	@NotNull
 	@Temporal(TemporalType.TIMESTAMP)
-	private Date				finishDuration;
+	protected Date				startDuration;
+
+	@NotNull
+	@Temporal(TemporalType.TIMESTAMP)
+	protected Date				finishDuration;
 
 	@URL
-	private String				optionalLink;
+	protected String			optionalLink;
 
 	// Derived attributes ----------------------------------------------------
 
