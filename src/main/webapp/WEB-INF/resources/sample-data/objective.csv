@@ -1,0 +1,4 @@
+key,instantiationMoment,title,description,Priority,status,startMoment,endMoment,optionalLink
+objective-01,2023/06/02 17:00,"Objetivo 1","conseguir el primer objetivo",HIGH,true,2023/06/02 17:00,2023/08/03 17:00,"http://example.com"
+objective-02,2023/08/03 10:30,"Objetivo 2","lograr el segundo objetivo",MEDIUM,false,2023/08/03 10:30,2023/10/04 10:30,
+objective-03,2023/10/04 14:00,"Objetivo 3","alcanzar el objetivo número tres",LOW,true,2023/10/04 14:00,2023/12/05 14:00,"http://ejemplo.com"
