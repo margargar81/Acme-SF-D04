@@ -33,7 +33,7 @@ public class ClientDashboard extends AbstractForm {
 
 	Map<String, Double>			maximumBudgetPerCurrency;
 
-	String[]					supportedCurrenciesPerCurrency;
+	String[]					supportedCurrencies;
 
 	// Derived attributes -----------------------------------------------------
 
