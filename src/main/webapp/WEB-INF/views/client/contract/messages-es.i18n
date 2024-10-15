@@ -1,0 +1,39 @@
+client.contract.list.title= Lista de contratos
+
+client.contract.list.label.code = Código
+client.contract.list.label.instantiationMoment = Fecha de creación
+client.contract.list.label.providerName = Proveedor
+client.contract.list.label.customerName = Cliente
+client.contract.list.label.goals = Objetivos
+client.contract.list.label.budget = Presupuesto
+client.contract.list.label.project = Proyecto
+client.contract.list.label.draftMode = Editable
+
+client.contract.list.button.create-contract = Crear contrato
+
+#############################################################################
+
+client.contract.form.title= Detalles del contrato
+
+client.contract.form.label.code = Código
+client.contract.form.label.providerName = Proveedor
+client.contract.form.label.customerName = Cliente
+client.contract.form.label.goals = Objetivos
+client.contract.form.label.budget = Presupuesto
+client.contract.form.label.project = Proyecto
+
+client.contract.form.button.update = Actualizar 
+client.contract.form.button.delete = Eliminar
+client.contract.form.button.publish = Publicar
+client.contract.form.button.create-contract = Crear contrato
+client.contract.form.button.progressLogs = Registros de Progreso 
+
+client.contract.form.placeholder.goals = Define los objetivos
+
+client.contract.form.error.duplicated = Este código ya está en uso.
+client.contract.form.error.negative-amount =  No se permiten cantidades negativas.
+client.contract.form.error.max-budget = Max cantidad excede el coste total del proyecto.
+client.contract.form.error.different-currency = La divisa seleccionada es diferente de la divisa del proyecto.
+client.contract.form.error.currency-not-suported = Moneda no compatible. Las monedas admitidas son EUR, USD y GBP.
+
+client.progressLog.form.error.duplicated = Este identificador ya existe.
