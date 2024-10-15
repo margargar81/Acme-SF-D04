@@ -1,0 +1,14 @@
+client.client-dashboard.form.title = Panel de Indicadores de cliente
+
+client.dashboard.form.title.general-indicators = Indicadores generales para registros de progreso publicados
+
+client.dashboard.form.label.progress-log-below-25 = Número de registros de progreso publicados con completitud por debajo del 25%
+client.dashboard.form.label.progress-log-between-25-50 = Número de registros de progreso publicados con completitud entre el 25% y el 50%
+client.dashboard.form.label.progress-log-between-50-75 = Número de registros de progreso publicados con completitud entre el 50% y el 75%
+client.dashboard.form.label.progress-log-above-75 = Número de registros de progreso publicados con completitud por encima del 75%
+
+client.dashboard.form.label.contract-indicators = Indicadores generales para contratos publicados 
+client.dashboard.form.label.contract-average = Presupuesto promedio de contratos publicados
+client.dashboard.form.label.contract-deviation = Desviación de los contratos publicados
+client.dashboard.form.label.contract-minimum = Presupuesto mínimo de cada contrato publicado
+client.dashboard.form.label.contract-maximum = Presupuesto máximo de cada contrato publicado

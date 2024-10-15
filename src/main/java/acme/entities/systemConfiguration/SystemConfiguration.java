@@ -22,7 +22,7 @@ public class SystemConfiguration extends AbstractEntity {
 	 */
 	@NotNull
 	@Pattern(regexp = "^([A-Z]{3},)*[A-Z]{3}$")
-	private String				acceptedCurrencies;
+	public String				acceptedCurrencies;
 
 	/**
 	 * The default system currency in ISO 4217 format.
@@ -30,5 +30,5 @@ public class SystemConfiguration extends AbstractEntity {
 	 */
 	@NotNull
 	@Pattern(regexp = "^[A-Z]{3}$")
-	private String				systemCurrency;
+	public String				systemCurrency;
 }
