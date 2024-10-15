@@ -21,11 +21,11 @@ import acme.roles.Provider;
 
 @Repository
 public interface AuthenticatedProviderRepository extends AbstractRepository {
+	
+	@Query("select ua from UserAccount ua where ua.id = :id")
+	UserAccount findOneUserAccountById(int id);
 
 	@Query("select p from Provider p where p.userAccount.id = :id")
 	Provider findOneProviderByUserAccountId(int id);
-
-	@Query("select ua from UserAccount ua where ua.id = :id")
-	UserAccount findOneUserAccountById(int id);
 
 }
