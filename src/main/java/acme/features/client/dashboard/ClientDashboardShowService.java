@@ -80,7 +80,7 @@ public class ClientDashboardShowService extends AbstractService<Client, ClientDa
 
 		dataset = super.unbind(object, "totalNumProgressLogBelow25", "totalNumProgressLogBetween25And50", //
 			"totalNumProgressLogBetween50And75", "totalNumProgressLogAbove75", //
-			"maximumPerCurrency", "minimumPerCurrency", "averagePerCurrency", "deviationPerCurrency", "supportedCurrencies");
+			"averageBudgetPerCurrency", "deviationBudgetPerCurrency", "minimumBudgetPerCurrency", "maximumBudgetPerCurrency", "supportedCurrencies");
 
 		super.getResponse().addData(dataset);
 	}

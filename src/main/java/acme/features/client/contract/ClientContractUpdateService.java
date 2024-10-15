@@ -69,13 +69,6 @@ public class ClientContractUpdateService extends AbstractService<Client, Contrac
 
 		assert object != null;
 
-		if (!super.getBuffer().getErrors().hasErrors("code")) {
-			Contract created;
-
-			created = this.clientContractRepository.findContractByCode(object.getCode());
-			super.state(created == null, "code", "client.contract.form.error.duplicated");
-		}
-
 		this.validateBudget(object);
 
 	}

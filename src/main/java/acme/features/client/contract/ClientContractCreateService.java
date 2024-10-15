@@ -115,6 +115,8 @@ public class ClientContractCreateService extends AbstractService<Client, Contrac
 
 	private void validateBudget(final Contract object) {
 
+		assert object != null;
+
 		Project project = object.getProject();
 		Money projectCost = project.getCost();
 

@@ -25,6 +25,11 @@ master.menu.anonymous.margargar81 = 51210488E: Garcia Garcia, Maria del Carmen
 master.menu.any.list-projects = Projects list
 master.menu.any.list-claim = Claim list
 
+# master.menu.any #############################################################
+
+master.menu.any = Any
+master.menu.any.list-contracts = List published contracts
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator
@@ -54,6 +59,8 @@ master.menu.user-account.consumer = Consumer data
 master.menu.user-account.become-consumer = Become a consumer
 master.menu.user-account.manager = Manager data
 master.menu.user-account.become-manager = Become a manager
+master.menu.user-account.client = Client data
+master.menu.user-account.become-client = Become a client
 
 
 # master.menu.manager #########################################################
@@ -63,3 +70,11 @@ master.menu.manager.list-my-projects = My projects
 master.menu.manager.list-my-user-stories = My User Stories
 master.menu.manager.list-my-project-user-story = Projects - User Stories
 master.menu.manager.manager-dashboard = Manager Dashboard
+
+# master.menu.client #########################################################
+
+master.menu.client = Client
+master.menu.client.list-contract = List my contracts
+master.menu.user-account.become-client = Become a client
+master.menu.user-account.client = Client data
+master.menu.client.dashboard = Client Dashboard
