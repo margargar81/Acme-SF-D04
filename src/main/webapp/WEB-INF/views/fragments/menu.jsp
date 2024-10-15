@@ -33,7 +33,11 @@
 			<acme:menu-suboption code="master.menu.administrator.populate-sample" action="/administrator/system/populate-sample"/>			
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shut-down" action="/administrator/system/shut-down"/>
+			<acme:menu-separator/>
+				<acme:menu-suboption code="master.menu.administrator.system-configuration" action="/administrator/system-configuration/show"/>
+			<acme:menu-separator/>
 		</acme:menu-option>
+	
 		
 		<acme:menu-option code="master.menu.manager" access="hasRole('Manager')">
 			<acme:menu-suboption code="master.menu.manager.list-my-projects" action="/manager/project/list"/>
