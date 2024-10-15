@@ -1,29 +1,35 @@
-manager.project.list.title = Lista de Proyectos
-manager.project.form.title = Formulario de Proyecto
+# Títulos de Página
+manager.project.list.title = Vista de Proyectos
+manager.project.form.title = Crear/Editar Proyecto
 
-manager.project.list.label.code = Código
-manager.project.list.label.title = Título
-manager.project.list.label.cost = Costo
-manager.project.list.label.draftMode = Modo Borrador
+# Etiquetas para la Lista de Proyectos
+manager.project.list.label.code = Código del Proyecto
+manager.project.list.label.title = Título del Proyecto
+manager.project.list.label.cost = Costo del Proyecto
+manager.project.list.label.draftMode = Estado de Modo Borrador
 
-manager.project.list.button.create = Crear
+# Botones para la Lista de Proyectos
+manager.project.list.button.create = Agregar Nuevo Proyecto
 
-manager.project.form.label.code = Código:
-manager.project.form.label.title = Título:
+# Etiquetas para el Formulario de Proyecto
+manager.project.form.label.code = Código del Proyecto:
+manager.project.form.label.title = Título del Proyecto:
 manager.project.form.label.projectAbstract = Resumen del Proyecto:
-manager.project.form.label.indication = Indicaciones (errores críticos)
-manager.project.form.label.cost = Costo:
-manager.project.form.label.link = Enlace:
+manager.project.form.label.indication = Indicaciones (Errores Críticos)
+manager.project.form.label.cost = Costo del Proyecto:
+manager.project.form.label.link = Enlace Relacionado:
 
-manager.project.form.button.user-stories-list = Listar Historias de Usuario
-manager.project.form.button.create = Crear
-manager.project.form.button.delete = Eliminar
-manager.project.form.button.update = Actualizar
-manager.project.form.button.publish = Publicar
+# Botones para el Formulario de Proyecto
+manager.project.form.button.user-stories-list = Ver Historias de Usuario
+manager.project.form.button.create = Guardar Proyecto
+manager.project.form.button.delete = Eliminar Proyecto
+manager.project.form.button.update = Actualizar Proyecto
+manager.project.form.button.publish = Publicar Proyecto
 
-manager.project.form.error.duplicated-code = El código no puede estar duplicado
-manager.project.form.error.negative-cost = El costo debe ser positivo
-manager.project.form.error.not-accepted-currency = La moneda no existe en el sistema
-manager.project.form.error.has-fatal-error = El proyecto no puede ser publicado porque tiene errores críticos
-manager.project.form.error.not-enough-user-stories = El proyecto no puede ser publicado porque no tiene historias de usuario
-manager.project.form.error.not-all-user-stories-published = El proyecto no puede ser publicado porque todas sus historias de usuario deben estar publicadas
+# Mensajes de Error para el Formulario de Proyecto
+manager.project.form.error.duplicated-code = El código del proyecto debe ser único.
+manager.project.form.error.negative-cost = El costo del proyecto debe ser un valor positivo.
+manager.project.form.error.not-accepted-currency = La moneda especificada no es reconocida.
+manager.project.form.error.has-fatal-error = El proyecto no puede ser publicado debido a errores críticos.
+manager.project.form.error.not-enough-user-stories = El proyecto no puede ser publicado sin historias de usuario.
+manager.project.form.error.not-all-user-stories-published = Todas las historias de usuario deben estar publicadas para poder publicar el proyecto.
