@@ -49,7 +49,7 @@ public class AuthenticatedClientCreateService extends AbstractService<Authentica
 	@Override
 	public void bind(final Client object) {
 		assert object != null;
-		super.bind(object, "identification", "companyName", "type", "email", "link");
+		super.bind(object, "identification", "companyName", "type", "email", "optionalLink");
 	}
 
 	@Override

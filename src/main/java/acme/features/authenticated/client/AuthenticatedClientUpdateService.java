@@ -45,7 +45,7 @@ public class AuthenticatedClientUpdateService extends AbstractService<Authentica
 	@Override
 	public void bind(final Client object) {
 		assert object != null;
-		super.bind(object, "identification", "companyName", "type", "email", "link");
+		super.bind(object, "identification", "companyName", "type", "email", "optionalLink");
 	}
 
 	@Override
@@ -75,7 +75,7 @@ public class AuthenticatedClientUpdateService extends AbstractService<Authentica
 		choices = SelectChoices.from(ClientType.class, object.getType());
 		Dataset dataset;
 
-		dataset = super.unbind(object, "identification", "companyName", "type", "email", "link");
+		dataset = super.unbind(object, "identification", "companyName", "type", "email", "optionalLink");
 		dataset.put("type", choices.getSelected().getKey());
 		dataset.put("types", choices);
 
