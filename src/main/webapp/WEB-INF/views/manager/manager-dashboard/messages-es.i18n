@@ -1,0 +1,15 @@
+manager.manager-dashboard.form.title = Panel de indicadores del manager
+
+manager.dashboard.form.title.project-indicators = Indicadores de rendimiento del proyecto
+manager.dashboard.form.title.user-story-indicators = Indicadores de rendimiento de historias de usuario
+manager.dashboard.form.title.user-story-priorities = Niveles de prioridad de historias de usuario
+
+manager.dashboard.form.label.avg-project-cost = Coste promedio de los proyectos
+manager.dashboard.form.label.dev-project-cost = Desviación del coste de los proyectos
+manager.dashboard.form.label.min-project-cost = Coste mínimo de los proyectos
+manager.dashboard.form.label.max-project-cost = Coste máximo de los proyectos
+
+manager.dashboard.form.label.avg-user-story-estimated-cost = Coste estimado promedio de historias de usuario
+manager.dashboard.form.label.dev-user-story-estimated-cost = Desviación del coste estimado de historias de usuario
+manager.dashboard.form.label.min-user-story-estimated-cost = Coste mínimo estimado de historias de usuario
+manager.dashboard.form.label.max-user-story-estimated-cost = Coste máximo estimado de historias de usuario
