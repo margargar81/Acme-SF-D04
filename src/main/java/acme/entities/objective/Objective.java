@@ -46,7 +46,7 @@ public class Objective extends AbstractEntity {
 	protected PriorityType		priority;
 
 	@NotNull
-	protected Boolean			criticalStatus;
+	protected boolean			criticalStatus;
 
 	@NotNull
 	@Temporal(TemporalType.TIMESTAMP)
