@@ -1,0 +1,21 @@
+administrator.objective.list.title = Listing of objectives
+administrator.objective.form.title = Objective form
+
+administrator.objective.list.label.title = Title
+administrator.objective.list.label.startDuration = Start Duration
+administrator.objective.list.label.finishDuration = Finish Duration
+administrator.objective.list.label.priority = Priority
+
+administrator.objective.list.button.create = Create
+
+administrator.objective.form.label.title = Title
+administrator.objective.form.label.description = Description
+administrator.objective.form.label.priority = Priority
+administrator.objective.form.label.criticalStatus = Critical Status
+administrator.objective.form.label.instantiationMoment = Instantiation moment
+administrator.objective.form.label.startDuration = Start Duration
+administrator.objective.form.label.finishDuration = Finish Duration
+administrator.objective.form.label.optionalLink = Optional link
+administrator.objective.form.label.confirmation = Confirmation
+
+administrator.objective.form.button.create = Create
