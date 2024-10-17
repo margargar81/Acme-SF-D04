@@ -33,7 +33,8 @@ master.menu.any.list-contracts = Lista de contratos
 # master.menu.authenticated ###################################################
 
 master.menu.authenticated = Autenticado
-master.menu.authenticated.list-objective = Ver objectivos
+master.menu.authenticated.list-objective = Ver objetivos
+master.menu.authenticated.list-risk = Ver riesgos
 
 # master.menu.administrator ###################################################
 
@@ -46,6 +47,7 @@ master.menu.administrator.shut-down = Parar el sistema
 
 master.menu.administrator.list-objective = Ver objetivos
 master.menu.administrator.system-configuration = Configuración del Sistema
+master.menu.administrator.list-risk = Ver riesgos
 
 
 # master.menu.provider ########################################################
