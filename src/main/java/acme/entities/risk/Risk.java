@@ -47,7 +47,7 @@ public class Risk extends AbstractEntity {
 
 	@Digits(integer = 3, fraction = 2)
 	@Min(0)
-	@Max(100)
+	@Max(1)
 	protected Double			probability;
 
 	@NotBlank
