@@ -48,6 +48,7 @@ master.menu.administrator.shut-down = Parar el sistema
 master.menu.administrator.list-objective = Ver objetivos
 master.menu.administrator.system-configuration = Configuración del Sistema
 master.menu.administrator.list-risk = Ver riesgos
+master.menu.administrator.list-banner = Ver banners
 
 
 # master.menu.provider ########################################################

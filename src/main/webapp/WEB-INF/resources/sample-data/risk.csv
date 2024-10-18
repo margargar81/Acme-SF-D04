@@ -1,4 +1,4 @@
 key,reference,identificationDate,impact,probability,description,optionalLink
 risk-01,R-001,2020/01/01 00:00,0,0.00,Descripción de riesgo 1,http://example.com
 risk-02,R-002,2020/02/01 00:00,10,0.01,Descripción de riesgo 2,http://ejemplo.com
-risk-03,R-003,2020/03/01 00:00,100,30.99,Descripción de riesgo 3,
+risk-03,R-003,2020/03/01 00:00,100,0.3,Descripción de riesgo 3,
