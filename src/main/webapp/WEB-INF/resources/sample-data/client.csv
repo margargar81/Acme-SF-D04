@@ -1,3 +1,6 @@
 key,identification,company-name,type,email,optional-link,key:user-account
 client-01,CLI-0001,Company1,COMPANY,company1@example.com,http://example.com,user-account-client-01
 client-02,CLI-0002,Company2,COMPANY,company2@example.com,,user-account-client-02
+client-03,CLI-0003,C,COMPANY,company3@example.com,http://company3.com,user-account-client-01
+client-04,CLI-0004,CompanyNameThatReachesExactlyTheLimitOfSeventySixCharactersLength,INDIVIDUAL,company4@example.com,,user-account-client-02
+client-05,CLI-0005,Company5,INDIVIDUAL,company5@example.com,http://company5.example.org/user-profile,user-account-client-02
