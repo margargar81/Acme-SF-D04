@@ -84,7 +84,7 @@ master.menu.manager.manager-dashboard = Panel de Manager
 # master.menu.client #########################################################
 
 master.menu.client = Cliente
-master.menu.client.list-contract = Ver mis contratos
+master.menu.client.list-contracts = Ver mis contratos
 master.menu.user-account.become-client = Hazte cliente
 master.menu.user-account.client = Datos de cliente
 master.menu.client.dashboard = Panel de indicadores de cliente

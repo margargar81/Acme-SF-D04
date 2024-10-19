@@ -85,7 +85,7 @@ master.menu.manager.manager-dashboard = Manager Dashboard
 # master.menu.client #########################################################
 
 master.menu.client = Client
-master.menu.client.list-contract = List my contracts
+master.menu.client.list-contracts = List my contracts
 master.menu.user-account.become-client = Become a client
 master.menu.user-account.client = Client data
 master.menu.client.dashboard = Client Dashboard
