@@ -1,21 +1,22 @@
-key,record-id,completeness,comment,registration-moment,responsible-person,key:contract
-progress-log-01,PG-A-1234,1.0,a,2020/07/08 22:00,Person1,contract-01
-progress-log-02,PG-AA-0000,10.2,Comment 1,2020/10/09 17:00,Persona 3,contract-01
-progress-log-03,PG-B-0123,50.5,Comment 2,2020/01/08 12:00,Persona 4,contract-02
-progress-log-04,PG-C-5678,99.99,This is a comment that is exactly 100 characters long to test the maximum length of the comment,2019/06/15 18:30,Responsible Person with a long name that hits exactly 75 characters,contract-03
-progress-log-05,PG-D-2345,0.0,Minimal completeness,2020/03/01 14:00,R,contract-04
-progress-log-06,PG-AA-2345,100.0,Max completeness achieved,2019/12/25 08:45,PersonA,contract-05
-progress-log-07,PG-E-1111,75.25,Moderate progress,2021/01/20 16:00,Someone Responsible,contract-06
-progress-log-08,PG-F-4321,50.0,Halfway through project,2021/05/09 10:30,Manager1,contract-07
-progress-log-09,PG-G-9876,25.5,Quarter progress made,2019/02/11 11:00,Manager 2,contract-08
-progress-log-10,PG-H-6543,33.33,Project advancing steadily,2020/04/16 19:45,Coordinator,contract-09
-progress-log-11,PG-I-1212,12.12,Initial stages completed,2020/08/24 09:00,Lead Engineer,contract-10
-progress-log-12,PG-J-9870,48.5,Nearing half completion,2019/09/14 15:20,Project Lead,contract-11
-progress-log-13,PG-K-8765,67.8,More than halfway through,2021/07/30 08:00,Responsible1,contract-12
-progress-log-14,PG-L-6789,80.0,Final stages of project,2019/10/11 12:15,PersonL,contract-03
-progress-log-15,PG-M-5432,15.7,Early progress,2020/06/23 14:10,John Doe,contract-04
-progress-log-16,PG-N-6780,9.9,Just starting out,2021/09/18 17:00,Person2,contract-05
-progress-log-17,PG-O-9090,5.0,Small steps forward,2019/01/28 20:25,Person O,contract-03
-progress-log-18,PG-P-8080,2.5,Minor achievements,2021/03/19 13:30,Dr. Manager,contract-07
-progress-log-19,PG-Q-7070,85.6,Near completion with only a few tasks left,2020/11/05 08:10,PersonQ,contract-18
-progress-log-20,PG-R-6060,10.1,Progress made slowly but steadily,2019/07/09 15:50,Manager R,contract-15
+key,record-id,completeness,comment,registration-moment,responsible-person,draftMode,key:contract
+progress-log-01,PG-A-1234,1.0,a,2020/07/08 22:00,Person1,false,contract-01
+progress-log-02,PG-AA-0000,10.2,Comment 1,2020/10/09 17:00,Persona 3,false,contract-01
+progress-log-03,PG-B-0123,50.5,Comment 2,2020/01/08 12:00,Persona 4,false,contract-02
+progress-log-04,PG-C-5678,99.99,This is a comment that is exactly 100 characters long to test the maximum length of the comment,2019/06/15 18:30,Responsible Person with a long name that hits exactly 75 characters,false,contract-03
+progress-log-05,PG-D-2345,0.0,Minimal completeness,2020/03/01 14:00,R,true,contract-04
+progress-log-06,PG-AA-2345,100.0,Max completeness achieved,2019/12/25 08:45,PersonA,false,contract-05
+progress-log-07,PG-E-1111,75.25,Moderate progress,2021/01/20 16:00,Someone Responsible,false,contract-06
+progress-log-08,PG-F-4321,50.0,Halfway through project,2021/05/09 10:30,Manager1,true,contract-07
+progress-log-09,PG-G-9876,25.5,Quarter progress made,2019/02/11 11:00,Manager 2,true,contract-08
+progress-log-10,PG-H-6543,33.33,Project advancing steadily,2020/04/16 19:45,Coordinator,false,contract-09
+progress-log-11,PG-I-1212,12.12,Initial stages completed,2020/08/24 09:00,Lead Engineer,false,contract-10
+progress-log-12,PG-J-9870,48.5,Nearing half completion,2019/09/14 15:20,Project Lead,true,contract-11
+progress-log-13,PG-K-8765,67.8,More than halfway through,2021/07/30 08:00,Responsible1,true,contract-12
+progress-log-14,PG-L-6789,80.0,Final stages of project,2019/10/11 12:15,PersonL,true,contract-03
+progress-log-15,PG-M-5432,15.7,Early progress,2020/06/23 14:10,John Doe,true,contract-04
+progress-log-16,PG-N-6780,9.9,Just starting out,2021/09/18 17:00,Person2,true,contract-05
+progress-log-17,PG-O-9090,5.0,Small steps forward,2019/01/28 20:25,Person O,false,contract-03
+progress-log-18,PG-P-8080,2.5,Minor achievements,2021/03/19 13:30,Dr. Manager,true,contract-07
+progress-log-19,PG-Q-7070,85.6,Near completion with only a few tasks left,2020/11/05 08:10,PersonQ,false,contract-08
+progress-log-21,PG-R-6060,10.1,Progress made slowly but steadily,2019/07/09 15:50,Manager R,false,contract-05
+progress-log-22,PG-BB-0123,50.5,Comment 2,2020/01/08 12:00,Persona,true,contract-02
