@@ -2,3 +2,12 @@ key,instantiationMoment,title,description,priority,criticalStatus,startDuration,
 objective-01,2020/06/02 17:00,"Objetivo 1","conseguir el primer objetivo",HIGH,true,2020/06/02 17:00,2020/08/03 17:00,"http://example.com"
 objective-02,2020/08/03 10:30,"Objetivo 2","lograr el segundo objetivo",MEDIUM,false,2020/08/03 10:30,2020/10/04 10:30,
 objective-03,2020/10/04 14:00,"Objetivo 3","alcanzar el objetivo número tres",LOW,true,2020/10/04 14:00,2020/12/05 14:00,"http://ejemplo.com"
+objective-04,2019/05/15 09:00,"Objetivo urgente","resolver problemas críticos del proyecto",HIGH,true,2019/05/15 09:00,2019/06/30 09:00,
+objective-05,2018/07/20 08:15,"Mejoras en el sistema","implementar mejoras en el sistema",MEDIUM,false,2018/07/20 08:15,2018/09/20 08:15,"http://link5.com"
+objective-06,2021/01/10 12:45,"Objetivo de bajo riesgo","reducir la carga de trabajo del equipo",LOW,false,2021/01/10 12:45,2021/03/10 12:45,"https://example6.org"
+objective-07,2017/09/25 13:00,"Optimización","optimizar el rendimiento del sistema",HIGH,true,2017/09/25 13:00,2017/11/25 13:00,"http://link7.com"
+objective-08,2020/11/11 15:00,"Actualización de software","actualizar el software a la última versión",MEDIUM,false,2020/11/11 15:00,2021/01/12 15:00,
+objective-09,2019/03/30 08:00,"Capacitación del equipo","realizar una capacitación interna",LOW,false,2019/03/30 08:00,2019/05/30 08:00,"http://link9.net"
+objective-10,2022/02/14 10:30,"Revisión final","revisar y finalizar la documentación",HIGH,true,2022/02/14 10:30,2022/04/14 10:30,"http://example10.com"
+objective-11,2016/04/12 09:45,"Evaluación de riesgos","evaluar posibles riesgos en el sistema",LOW,false,2016/04/12 09:45,2016/06/12 09:45,
+objective-12,2021/09/05 16:00,"Supervisión del proyecto","supervisar el progreso del proyecto",HIGH,true,2023/09/05 16:00,2023/12/05 16:00,"https://supervision.org"

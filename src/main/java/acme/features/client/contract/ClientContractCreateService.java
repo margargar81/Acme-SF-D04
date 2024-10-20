@@ -118,20 +118,22 @@ public class ClientContractCreateService extends AbstractService<Client, Contrac
 		assert object != null;
 
 		Project project = object.getProject();
-		Money projectCost = project.getCost();
+		if (project != null) {
+			Money projectCost = project.getCost();
+			if (!super.getBuffer().getErrors().hasErrors("budget")) {
+				super.state(object.getBudget().getAmount() < projectCost.getAmount(), "budget", "client.contract.form.error.max-budget");
+				super.state(object.getBudget().getAmount() > 0, "budget", "client.contract.form.error.negative-amount");
 
-		if (!super.getBuffer().getErrors().hasErrors("budget")) {
-			super.state(object.getBudget().getAmount() < projectCost.getAmount(), "budget", "client.contract.form.error.max-budget");
-			super.state(object.getBudget().getAmount() > 0, "budget", "client.contract.form.error.negative-amount");
+				if (project != null)
+					super.state(object.getBudget().getCurrency().equals(object.getProject().getCost().getCurrency()), "budget", "client.contract.form.error.different-currency");
 
-			if (project != null)
-				super.state(object.getBudget().getCurrency().equals(object.getProject().getCost().getCurrency()), "budget", "client.contract.form.error.different-currency");
+				List<SystemConfiguration> sc = this.clientContractRepository.findSystemConfiguration();
+				final boolean foundCurrency = Stream.of(sc.get(0).acceptedCurrencies.split(",")).anyMatch(c -> c.equals(object.getBudget().getCurrency()));
 
-			List<SystemConfiguration> sc = this.clientContractRepository.findSystemConfiguration();
-			final boolean foundCurrency = Stream.of(sc.get(0).acceptedCurrencies.split(",")).anyMatch(c -> c.equals(object.getBudget().getCurrency()));
-
-			super.state(foundCurrency, "budget", "client.contract.form.error.currency-not-suported");
+				super.state(foundCurrency, "budget", "client.contract.form.error.currency-not-suported");
+			}
 		}
+
 	}
 
 }
