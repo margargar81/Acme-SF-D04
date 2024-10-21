@@ -1,4 +1,21 @@
 key,code,instantiation-moment,provider-name,customer-name,goals,budget,draft-mode,key:client,key:project
-contract-01,ABC-001,2020/01/01 00:00,Provider1,Customer1,Goal1,"EUR 100.10",false,client-01,project-01
-contract-02,AAA-002,2020/02/01 10:05,Provider2,Customer2,Goal2,"EUR 200.20",true,client-02,project-02
+contract-01,ABC-001,2020/01/01 00:00,P,Customer1,Goal1,"EUR 100.10",false,client-01,project-01
+contract-02,AAA-002,2020/02/01 10:05,Provider2,Customer2,Goal2,"USD 200.20",true,client-02,project-02
 contract-03,BCD-003,2020/03/17 23:59,Provider3,Customer3,Goal3,"EUR 300.00",false,client-02,project-03
+contract-04,CDE-004,2020/04/01 09:30,Prov,Customer4,Goal4,"USD 400.50",true,client-01,project-04
+contract-05,EFG-005,2020/05/05 08:45,ProviderVeryLongNameThatExceedsTheLimitByACharacter,Customer5,Goal5,"GBP 500.75",false,client-01,project-05
+contract-06,XYZ-006,2020/06/15 12:00,P1,Customer6,Goal6,"EUR 600.90",true,client-02,project-06
+contract-07,GHI-007,2020/07/25 15:20,Provider7,CustomerNameThatExceedsTheLimitByACharacter,Goal7,"USD 700.00",false,client-02,project-07
+contract-08,JKL-008,2020/08/30 18:10,Provider8,Customer8,Goal8,"EUR 800.25",true,client-01,project-08
+contract-09,MNO-009,2020/09/15 07:45,ProviderNameThatIsExactly75CharactersLongButNotMoreThanThatIsValid,Customer9,Goal9,"USD 900.50",false,client-02,project-09
+contract-10,PQR-010,2020/10/10 10:00,PV10,Customer10,Goal10,"EUR 1000.10",true,client-01,project-10
+contract-11,AAA-011,2020/11/11 11:11,P1,Customer11,Goal11,"USD 1100.20",false,client-01,project-01
+contract-12,BBB-012,2020/12/12 12:12,Provider12,Customer12,Goal12,"GBP 1200.30",true,client-01,project-02
+contract-13,CCC-013,2019/01/13 13:13,Provider13,Customer13,Goal13,"EUR 1300.40",false,client-02,project-03
+contract-14,DDD-014,2019/02/14 14:14,Provider14,Customer14,Goal14,"USD 1400.50",true,client-02,project-04
+contract-15,EEE-015,2019/03/15 15:15,Provider15,Customer15,Goal15,"EUR 1500.60",false,client-01,project-05
+contract-16,FFF-016,2019/04/16 16:16,Provider16,Customer16,Goal16,"USD 1600.70",true,client-01,project-06
+contract-17,GGG-017,2019/05/17 17:17,Provider17,Customer17,Goal17,"EUR 1700.80",false,client-02,project-07
+contract-18,HHH-018,2019/06/18 18:18,Provider18,Customer18,Goal18,"USD 1800.90",true,client-02,project-08
+contract-19,III-019,2019/07/19 19:19,Provider19,Customer19,Goal19,"EUR 1900.00",false,client-01,project-09
+contract-20,JJJ-020,2019/08/20 20:20,Provider20,Customer20,Goal20,"USD 2000.10",true,client-01,project-01

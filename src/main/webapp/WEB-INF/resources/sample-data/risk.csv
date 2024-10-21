@@ -1,4 +1,13 @@
 key,reference,identificationDate,impact,probability,description,optionalLink
 risk-01,R-001,2020/01/01 00:00,0,0.00,Descripción de riesgo 1,http://example.com
 risk-02,R-002,2020/02/01 00:00,10,0.01,Descripción de riesgo 2,http://ejemplo.com
-risk-03,R-003,2020/03/01 00:00,100,0.3,Descripción de riesgo 3,
+risk-03,R-003,2020/03/01 00:00,100,0.33,Descripción de riesgo 3,
+risk-04,R-004,2019/04/05 10:30,50,0.50,Riesgo de impacto moderado,https://link4.com
+risk-05,R-005,2018/05/10 14:45,75,0.75,Riesgo alto con probabilidades elevadas,http://link5.org
+risk-06,R-006,2017/06/20 12:00,30,0.30,Riesgo con impacto moderado y probabilidad baja,http://link6.com
+risk-07,R-007,2016/07/15 08:20,15,0.15,Riesgo bajo con impacto controlado,https://link7.com
+risk-08,R-008,2015/08/10 16:10,100,1.00,Riesgo máximo tanto en impacto como en probabilidad,http://link8.net
+risk-09,R-009,2021/09/25 13:30,5,0.05,Descripción que alcanza casi 100 caracteres para verificar límite en longitud de la descripción,
+risk-10,R-010,2020/10/12 09:15,0,0.00,Riesgo nulo debido a la probabilidad e impacto cero,http://example9.com
+risk-11,R-011,2019/11/30 07:45,20,0.20,Riesgo leve controlado,http://example10.org
+risk-12,R-012,2018/12/01 11:25,80,0.85,Riesgo alto por impacto significativo pero probabilidad menor,http://risk12.com
