@@ -29,3 +29,4 @@ administrator.banner.error.updateMoment = El momento de edición no puede ser an
 administrator.banner.error.updateMoment2 = El momento de edición no puede ser posterior a la fecha de fin.
 administrator.banner.error.updateMoment3 = No puede haber una fecha de edición sin una fecha de inicio.
 administrator.banner.error.period = El periodo no puede finalizar antes de comenzar.
+administrator.banner.error.updateMoment# = La fecha de edición no es válida.

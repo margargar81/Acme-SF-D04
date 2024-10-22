@@ -21,6 +21,7 @@ administrator.banner.list.label.webDoc = Web Document
 
 administrator.banner.list.button.create = Create
 
+administrator.banner.error.updateMoment# = The date is not valid.
 administrator.banner.error.periodEnd = The end date must not be before the start date.
 administrator.banner.error.periodEnd2 = The display period must be at least 1 week long.
 administrator.banner.error.periodEnd3 = An end date cannot be set without a start date.
