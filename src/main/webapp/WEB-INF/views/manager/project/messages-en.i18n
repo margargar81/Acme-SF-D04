@@ -1,0 +1,35 @@
+# Page Titles
+manager.project.list.title = Projects Overview
+manager.project.form.title = Create/Edit Project
+
+# Labels for Project List
+manager.project.list.label.code = Project Code
+manager.project.list.label.title = Project Title
+manager.project.list.label.cost = Project Cost
+manager.project.list.label.draftMode = Draft Mode Status
+
+# Buttons for Project List
+manager.project.list.button.create = Add New Project
+
+# Labels for Project Form
+manager.project.form.label.code = Project Code:
+manager.project.form.label.title = Project Title:
+manager.project.form.label.projectAbstract = Project Overview:
+manager.project.form.label.indication = Critical Issues Indications
+manager.project.form.label.cost = Project Cost:
+manager.project.form.label.link = Related Link:
+
+# Buttons for Project Form
+manager.project.form.button.user-stories-list = View User Stories
+manager.project.form.button.create = Save Project
+manager.project.form.button.delete = Remove Project
+manager.project.form.button.update = Update Project
+manager.project.form.button.publish = Publish Project
+
+# Error Messages for Project Form
+manager.project.form.error.duplicated-code = The project code must be unique.
+manager.project.form.error.negative-cost = The project cost must be a positive value.
+manager.project.form.error.not-accepted-currency = The specified currency is not recognized.
+manager.project.form.error.has-fatal-error = The project cannot be published due to critical issues.
+manager.project.form.error.not-enough-user-stories = The project cannot be published without user stories.
+manager.project.form.error.not-all-user-stories-published = All user stories must be published to publish the project.

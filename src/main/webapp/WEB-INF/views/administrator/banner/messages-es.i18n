@@ -1,0 +1,32 @@
+administrator.banner.form.title = Detalles del Banner
+administrator.banner.list.title = Listado de Banners
+
+administrator.banner.form.label.updateMoment = Momento de edición:
+administrator.banner.form.label.displayPeriodStart = Comienzo del Periodo:
+administrator.banner.form.label.displayPeriodEnd = Final del Periodo:
+administrator.banner.form.label.picture = Foto:
+administrator.banner.form.label.slogan = Slogan:
+administrator.banner.form.label.webDoc = Documento web:
+
+administrator.banner.form.button.create = Crear
+administrator.banner.form.button.update = Editar
+administrator.banner.form.button.delete = Borrar
+ 
+administrator.banner.list.label.updateMoment = Momento de edición:
+administrator.banner.list.label.displayPeriodStart = Comienzo del Periodo:
+administrator.banner.list.label.displayPeriodEnd = Final del Periodo:
+administrator.banner.list.label.picture = Foto:
+administrator.banner.list.label.slogan = Slogan:
+administrator.banner.list.label.webDoc = Documento web:
+
+administrator.banner.list.button.create = Crear
+
+administrator.banner.error.periodEnd = La fecha de fin no puede ser anterior a la fecha de inicio.
+administrator.banner.error.periodEnd2 = El periodo debe durar al menos 1 semana.
+administrator.banner.error.periodEnd3 = No puede haber una fecha de fin sin una fecha de inicio.
+administrator.banner.error.periodStart = La fecha de inicio no puede ser posterior a la fecha de fin.
+administrator.banner.error.updateMoment = El momento de edición no puede ser anterior a la fecha de inicio.
+administrator.banner.error.updateMoment2 = El momento de edición no puede ser posterior a la fecha de fin.
+administrator.banner.error.updateMoment3 = No puede haber una fecha de edición sin una fecha de inicio.
+administrator.banner.error.period = El periodo no puede finalizar antes de comenzar.
+administrator.banner.error.updateMoment# = La fecha de edición no es válida.

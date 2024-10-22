@@ -1,0 +1,15 @@
+manager.manager-dashboard.form.title = Manager Dashboard
+
+manager.dashboard.form.title.project-indicators = Project Performance Indicators
+manager.dashboard.form.title.user-story-indicators = User Story Performance Indicators
+manager.dashboard.form.title.user-story-priorities = User Story Priority Levels
+
+manager.dashboard.form.label.avg-project-cost = Average Project Cost
+manager.dashboard.form.label.dev-project-cost = Project Cost Deviation
+manager.dashboard.form.label.min-project-cost = Minimum Project Cost
+manager.dashboard.form.label.max-project-cost = Maximum Project Cost
+
+manager.dashboard.form.label.avg-user-story-estimated-cost = Average Estimated User Story Cost
+manager.dashboard.form.label.dev-user-story-estimated-cost = User Story Cost Deviation
+manager.dashboard.form.label.min-user-story-estimated-cost = Minimum Estimated User Story Cost
+manager.dashboard.form.label.max-user-story-estimated-cost = Maximum Estimated User Story Cost

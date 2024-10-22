@@ -1,0 +1,23 @@
+# Page Titles
+manager.project-user-story.list.title = Project - User Story Relationship List
+manager.project-user-story.form.title = Project - User Story Relationship Form
+
+# Labels for the Relationship List
+manager.project-user-story.list.label.project-title = Project Title
+manager.project-user-story.list.label.user-story-title = User Story Title
+
+# Buttons for the Relationship List
+manager.project-user-story.list.button.create = Create New Assignment
+
+# Labels for the Relationship Form
+manager.project-user-story.form.label.project-title = Project Title
+manager.project-user-story.form.label.user-story-title = User Story Title
+
+# Buttons for the Relationship Form
+manager.project-user-story.form.button.create = Create Assignment
+manager.project-user-story.form.button.delete = Delete Assignment
+
+# Error Messages for the Relationship Form
+manager.project-user-story.form.error.existing-assignment = Cannot create a duplicate assignment.
+manager.project-user-story.form.error.create-assignment-published-project = Cannot create an assignment for a published project.
+manager.project-user-story.form.error.delete-assignment-published-project = Cannot delete an assignment for a published project.

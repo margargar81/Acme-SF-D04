@@ -20,6 +20,21 @@ master.menu.sign-out = Salir
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = Enlace favorito
 master.menu.anonymous.marbarmar16 = 32097404F: Barrancos Marquez, Maria
+master.menu.anonymous.margargar81 = 51210488E: Garcia Garcia, Maria del Carmen
+
+master.menu.any.list-projects = Lista de Proyectos
+master.menu.any.list-claim = Lista de Reclamaciones
+
+# master.menu.any #############################################################
+
+master.menu.any = Any
+master.menu.any.list-contracts = Lista de contratos
+
+# master.menu.authenticated ###################################################
+
+master.menu.authenticated = Autenticado
+master.menu.authenticated.list-objective = Ver objetivos
+master.menu.authenticated.list-risk = Ver riesgos
 
 # master.menu.administrator ###################################################
 
@@ -29,6 +44,12 @@ master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.populate-initial = Poblar BD (inicial)
 master.menu.administrator.populate-sample = Poblar BD (ejemplos)
 master.menu.administrator.shut-down = Parar el sistema
+
+master.menu.administrator.list-objective = Ver objetivos
+master.menu.administrator.system-configuration = Configuración del Sistema
+master.menu.administrator.list-risk = Ver riesgos
+master.menu.administrator.list-banner = Ver banners
+
 
 # master.menu.provider ########################################################
 
@@ -48,3 +69,24 @@ master.menu.user-account.provider = Datos de proveedor
 master.menu.user-account.become-provider = Hazte proveedor
 master.menu.user-account.consumer = Datos de consumidor
 master.menu.user-account.become-consumer = Hazte consumidor
+master.menu.user-account.manager = Datos de manager
+master.menu.user-account.become-manager = Hazte manager
+master.menu.user-account.client = Datos cliente
+master.menu.user-account.become-client = Hazte cliente
+
+# master.menu.manager #########################################################
+
+master.menu.manager = Manager
+master.menu.manager.list-my-projects = Mis proyectos
+master.menu.manager.list-my-user-stories = Mis Historias de Usuario
+master.menu.manager.list-my-project-user-story = Proyectos - Historias de Usuario
+master.menu.manager.manager-dashboard = Panel de Manager
+
+# master.menu.client #########################################################
+
+master.menu.client = Cliente
+master.menu.client.list-contract = Ver mis contratos
+master.menu.user-account.become-client = Hazte cliente
+master.menu.user-account.client = Datos de cliente
+master.menu.client.dashboard = Panel de indicadores de cliente
+

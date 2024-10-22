@@ -1,0 +1,32 @@
+administrator.banner.form.title = Banner Form
+administrator.banner.list.title = Banner Listing
+
+administrator.banner.form.label.updateMoment = Update Moment:
+administrator.banner.form.label.displayPeriodStart = Display Period Start:
+administrator.banner.form.label.displayPeriodEnd = Display Period End:
+administrator.banner.form.label.picture = Picture:
+administrator.banner.form.label.slogan = Slogan:
+administrator.banner.form.label.webDoc = Web Document:
+
+administrator.banner.form.button.create = Create
+administrator.banner.form.button.update = Update
+administrator.banner.form.button.delete = Delete
+ 
+administrator.banner.list.label.updateMoment = Update Moment
+administrator.banner.list.label.displayPeriodStart = Display Period Start
+administrator.banner.list.label.displayPeriodEnd = Display Period End
+administrator.banner.list.label.picture = Picture
+administrator.banner.list.label.slogan = Slogan
+administrator.banner.list.label.webDoc = Web Document
+
+administrator.banner.list.button.create = Create
+
+administrator.banner.error.updateMoment# = The date is not valid.
+administrator.banner.error.periodEnd = The end date must not be before the start date.
+administrator.banner.error.periodEnd2 = The display period must be at least 1 week long.
+administrator.banner.error.periodEnd3 = An end date cannot be set without a start date.
+administrator.banner.error.periodStart = The start date must not be after the end date.
+administrator.banner.error.updateMoment = The update moment cannot be before the start date.
+administrator.banner.error.updateMoment2 = The update moment cannot be after the end date.
+administrator.banner.error.updateMoment3 = An update moment cannot be set without a start date.
+administrator.banner.error.period = The end date cannot be before the start date.

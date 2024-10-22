@@ -58,7 +58,7 @@ public class Banner extends AbstractEntity {
 	// Derived attributes -----------------------------------------------------
 
 
-	public boolean validateDisplayPeriod() {
+	public boolean isActive() {
 		boolean res = true;
 		if (this.displayPeriodStart != null && this.displayPeriodEnd != null) {
 			long differenceInDays = (this.displayPeriodEnd.getTime() - this.displayPeriodStart.getTime()) / 86400000;
@@ -66,8 +66,8 @@ public class Banner extends AbstractEntity {
 				res = false;
 		}
 		return res;
+
+		// Relationships ----------------------------------------------------------
+
 	}
-
-	// Relationships ----------------------------------------------------------
-
 }

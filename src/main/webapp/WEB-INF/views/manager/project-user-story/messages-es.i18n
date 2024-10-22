@@ -1,0 +1,23 @@
+# Títulos de Página
+manager.project-user-story.list.title = Listado de Asignaciones entre Proyecto y Historias de Usuario
+manager.project-user-story.form.title = Detalles de la Asignación entre Proyecto y Historia de Usuario
+
+# Etiquetas para la Lista de Relaciones
+manager.project-user-story.list.label.project-title = Título del Proyecto
+manager.project-user-story.list.label.user-story-title = Título de la Historia de Usuario
+
+# Botones para la Lista de Relaciones
+manager.project-user-story.list.button.create = Agregar Nueva Asignación
+
+# Etiquetas para el Formulario de Relaciones
+manager.project-user-story.form.label.project-title = Título del Proyecto
+manager.project-user-story.form.label.user-story-title = Título de la Historia de Usuario
+
+# Botones para el Formulario de Relaciones
+manager.project-user-story.form.button.create = Crear Asignación
+manager.project-user-story.form.button.delete = Eliminar Asignación
+
+# Mensajes de Error para el Formulario de Relaciones
+manager.project-user-story.form.error.existing-project-assignment = No se pueden crear asignaciones duplicadas.
+manager.project-user-story.form.error.create-assignment-published-project = No se puede crear una asignación para un proyecto ya publicado.
+manager.project-user-story.form.error.delete-assignment-published-project = No se puede eliminar una asignación de un proyecto ya publicado.
