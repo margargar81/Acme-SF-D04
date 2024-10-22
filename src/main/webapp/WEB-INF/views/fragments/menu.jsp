@@ -28,6 +28,8 @@
 
 		<acme:menu-option code="master.menu.any" access="isAnonymous() || isAuthenticated()">
 			<acme:menu-suboption code= "master.menu.any.list-contracts" action="/any/contract/list"/>
+			<acme:menu-suboption code="master.menu.any.list-claim" action="/any/claim/list"/>
+            <acme:menu-suboption code="master.menu.any.list-projects" action="/any/project/list"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
